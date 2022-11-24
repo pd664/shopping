@@ -1,0 +1,57 @@
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.Shopping_logo {
+    color : red;
+} 
+
+.header_items {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header_items_list_content{
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+.header_items_list_content a {
+    text-decoration: none;
+    color: black
+}
+
+.header_items_list_content:hover {
+    border-bottom: 2px solid red
+}
+
+.cred{
+    display: flex;
+}
+
+.sign_in {
+    padding: 5px;
+}
+
+.sign_up {
+    padding: 5px;
+}
+
+.sign_up_btn {
+    padding: 0px;
+}
+
+.cart_logo {
+    color : red;
+    padding: 5px
+}
+
+.sign_up_btn:hover {
+    border-bottom: 2px solid red;
+}

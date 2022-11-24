@@ -1,0 +1,30 @@
+.carousel_img {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel {
+    width: 100%;
+    /* height: 400px; */
+    position: relative;
+}
+
+.left-arrow {
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 2rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 2rem;
+    color: red;;
+    z-index: 10;
+    cursor: pointer;
+}

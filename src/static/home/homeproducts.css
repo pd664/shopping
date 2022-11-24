@@ -1,0 +1,29 @@
+.homeProducts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.homeProducts_cont {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.homeProducts_cont{
+    /* display: block; 
+     width: 100%; */
+     display:flex;
+     align-content: flex-start;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.home_products_cont {
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    padding: 10px 3px;
+    text-align: center;
+    width: calc( 100% / 5 - 10px);
+}
+
